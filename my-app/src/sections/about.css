@@ -1,0 +1,31 @@
+.aboutContainer {
+    align-self: center;
+    display: flex;
+    width: 35rem;
+    height: 40rem;
+}
+
+.aboutImg {
+    height: 40rem;
+    width: 20rem;
+    object-fit: cover;
+}
+
+.aboutText {
+    height: 40rem;
+    width: 15rem;
+    display: flex;
+    align-items: left;
+    margin: 3px;
+}
+
+.aboutTitle {
+    height: 4rem;
+    max-height: 4rem;
+}
+
+.aboutDesc {
+    margin: 3px;
+    height: 36rem;
+    max-height: 36rem;
+}
