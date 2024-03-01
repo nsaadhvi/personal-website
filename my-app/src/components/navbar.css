@@ -1,5 +1,5 @@
 .navbar {
-    height: 5rem;
+    height: 3rem;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -10,6 +10,9 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: hsla(0,0%,98.4%,.603921568627450)9;
+    backdrop-filter: blur(7px);
+    border-radius: 8px;
 }
 
 .logo {
@@ -24,20 +27,23 @@
 }
 
 .desktopMenuListItem:hover {
-    color: white;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #333;
 }
 
 .desktopMenuBtn {
-    background: white;
-    color: black;
+    background: #333;
+    color: white;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+}
+
+.desktopMenuBtn:hover {
+    cursor: pointer;
 }
 
 .desktopMenuImg {

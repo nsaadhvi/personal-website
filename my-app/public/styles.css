@@ -13,3 +13,7 @@
     overflow: hidden;
     overflow-y: scroll;
 } */
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
