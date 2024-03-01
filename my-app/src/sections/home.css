@@ -1,0 +1,40 @@
+.countiner-style {
+    height: 100%;
+    position: relative;
+}
+
+.description {
+    width: 600px;
+    position: absolute;
+    z-index: 999;
+    color: black;
+    top: 20%;
+    left: 20%;
+}
+
+.description h1{
+    font-size: 46px;
+}
+
+.description p{
+    font-size: 22px;
+}
+
+
+/* #intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    top: -4rem;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+} */
