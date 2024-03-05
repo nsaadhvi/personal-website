@@ -2,16 +2,16 @@ import React from 'react';
 import './navbar.css';
 import logo from '../assets/logo.png';
 import contactImg from "../assets/contact.png";
-import {Link} from 'react-scroll';
+import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+export default function Navbar() {
     return (
         <nav className="navbar">
             <img src={logo} alt="logo" className='logo' />
             <div className= "desktopMenu">
                 <Link className="desktopMenuListItem" to="/">home</Link>
                 <Link className="desktopMenuListItem" to="/about">about</Link>
-                <Link className="desktopMenuListItem" to='#experience'>experience</Link>
+                <Link className="desktopMenuListItem" to='/experience'>experience</Link>
             </div>
             <button className="desktopMenuBtn">
                 <img src={contactImg} alt="contactImg" className="desktopMenuImg" />contact me
@@ -20,4 +20,3 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
